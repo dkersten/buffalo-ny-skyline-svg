@@ -49,9 +49,15 @@ table {
 
 /* CSS Reset above */
 
+body {
+	background: #272121;
+}
+
 svg {
 	background: #272121;
 	fill: none;
 	stroke: #f00;
-	stroke-width: 3;
+	stroke-width: 2;
+	margin: auto;
+	display: block;
 }
