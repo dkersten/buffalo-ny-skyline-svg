@@ -49,6 +49,9 @@ table {
 
 /* CSS Reset above */
 
+* {
+	box-sizing: border-box;
+}
 .container {
 	width: 100vw;
 	heigt: 100vh;
@@ -67,9 +70,10 @@ svg {
 	stroke-width: 3;
 	margin: auto;
 	display: block;
-	stroke-dasharray: 10000;
-	stroke-dashoffset: 10000;
-	animation: dash 20s linear;
+	stroke-dasharray: 3100;
+	stroke-dashoffset: 3100;
+	animation: dash 10s linear infinite;
+	// animation: dash 10s linear;
 }
 
 @keyframes dash {
@@ -84,4 +88,19 @@ svg.bills {
 
 svg.sabres {
 	stroke: #FFB71A
+}
+
+.controls {
+	margin: 0 auto -2rem;
+	padding: 2rem 0;
+	text-align: center;
+	color: #fff;
+}
+
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
 }
