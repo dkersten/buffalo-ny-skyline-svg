@@ -49,15 +49,31 @@ table {
 
 /* CSS Reset above */
 
-body {
-	background: #272121;
+.container {
+	width: 100vw;
+	heigt: 100vh;
+}
+
+.container.sabres {
+	background: #082F87;
+}
+
+.container.bills {
+	background: #00338D;
 }
 
 svg {
-	background: #272121;
 	fill: none;
-	stroke: #f00;
-	stroke-width: 2;
+	stroke-width: 3;
 	margin: auto;
 	display: block;
+}
+
+svg.bills {
+	// background: #00338D;
+	stroke: #C60C30;
+}
+
+svg.sabres {
+	stroke: #FFB71A
 }
