@@ -49,3 +49,9 @@ table {
 
 /* CSS Reset above */
 
+svg {
+	background: #272121;
+	fill: none;
+	stroke: #f00;
+	stroke-width: 3;
+}
