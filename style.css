@@ -104,3 +104,27 @@ svg.sabres {
 .hide {
 	display: none;
 }
+
+button {
+	font-weight: 700;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 3px;
+	padding: .5rem 1rem;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button.bills {
+    background: #C60C30;
+    color: #fff;
+    text-shadow: 1px 1px 5px #2f2f2f;
+}
+
+button.sabres {
+    background: #FFB71A;
+    color: #082F87;
+}
